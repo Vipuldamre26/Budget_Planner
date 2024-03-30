@@ -1,0 +1,82 @@
+.dataShow{
+    width: 100%;
+}
+
+.dataShow h1{
+    font-size: 2.4rem;
+}
+
+.dataShow .change{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dataShow .change .show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.dataShow .change .show p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 50%;
+    margin: 0.2rem 0.6rem;
+    background-color: rgba(0, 0, 0, 0.032);
+    border-radius: 10px;
+}
+
+.dataShow strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 80%;
+    margin: 0.6rem auto;
+    font-size: 1.8rem;
+}
+
+.dataShow .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0.6rem auto;
+    background-color: rgb(139, 236, 255);
+    padding: 2rem 0;
+}
+
+.dataShow .items .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0.6rem auto;
+    background-color: rgba(0, 0, 0, 0.064);
+    padding: 0.5rem 1rem;
+}
+
+.dataShow .items .item .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9%;
+    margin: 0.6rem;
+}
+
+.dataShow .items .item .price .x{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+}
